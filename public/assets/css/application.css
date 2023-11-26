@@ -1,0 +1,57 @@
+.step-icon{
+    width: 70px;
+}
+
+.steps-icon{
+    vertical-align: top;
+}
+
+.step-title{
+    font-size: 75%;
+}
+
+.inactive-step{
+    filter: opacity(0.5);
+    -webkit-filter: opacity(0.5);
+}
+
+.inactive-form{
+    display: none !important;
+}
+
+.fa-star{
+    font-size:80%;
+}
+
+.btn-form{
+    min-width: 270px;
+    padding: .75rem 2.75rem;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+@media (max-width: 576px){
+    .fa-2x{
+        font-size: 1rem !important;
+    }
+
+    .step-icon {
+        width: 30px;
+    }
+
+    .btn-form{
+        min-width: 100%;
+    }
+}
+
+.sub-label{
+    font-size: 11px;
+    color: #0043ff;
+    word-spacing: -2px;
+}
+
+
+.request-type-holder{
+    color: #0f568c;
+    margin-right: 15px;
+}

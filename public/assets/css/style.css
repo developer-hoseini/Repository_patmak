@@ -1,0 +1,173 @@
+.hidden{
+    display: none !important;
+}
+
+body{
+    font-family: Vazir, Tahoma;
+    font-size: 18px;
+    /* background-color: rgba(250, 250, 250, 0.5);     */
+}
+
+body:before {
+    position: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: inherit;
+    display: block;
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-size: auto 100%;
+    background-position: right;    
+    filter: opacity(15%);
+   -webkit-filter: opacity(15%);
+}
+
+.navbar-1 h1 {
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.copyright-text{
+    font-size: 1rem;
+}
+
+@media (max-width: 576px){
+    .copyright-text{font-size: 0.6rem !important;}
+}
+
+@media (min-width: 576px){
+    .navbar-1 h1 {font-size: 100%;}
+    .copyright-text{font-size: 0.7rem !important;}
+}
+
+@media (min-width: 768px){
+    .navbar-1 h1 {font-size: 140%;}
+}
+
+
+.navbar-1 img {
+    max-height: 80px;
+}
+
+.navbar-1 img:first-child {
+    margin-left: auto;
+}
+
+.navbar-1 img:last-child {
+    margin-right: auto;
+}
+
+.bg-parcham{
+    background-image: url(../img/parcham.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left;
+}
+.bg-vezarat-logo{
+    background-image: url(../img/vezarat-rah.png), url(../img/inbr.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100% 0%, calc(100% - 70px) 0%;
+}
+
+.navbar-1{
+    height: 80px;
+    padding-top: 0;
+}
+.navbar-1 > div{
+    height: 80px;
+}
+
+.navbar-2{
+    border-bottom: 7px solid #4cd137;
+}
+
+.home-page-item{
+    padding: 15px;
+}
+
+.home-page-item-content{
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.home-page-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-confirm{
+    color: #fff;
+    background-color:#2ecc71;
+    border-color:#2ecc71;
+    padding: .75rem 2.75rem;
+    margin-bottom: 10px;
+    font-weight: 200;
+    min-width: 270px;
+}
+
+.btn-confirm:hover{
+    color: #fff;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.text-required{
+    color: #ff5546;
+}
+
+#loading{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 102, 102,.9);
+    z-index: 30001;
+}
+.loader-content{
+    width: 300px;
+    color: white;
+    position: fixed;
+    right: calc(50% - 180px);
+    top: calc(50% - 40px);
+    padding: 10px;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+#tableBtnHolder{
+    display: inline-block;
+    float: left;
+}
+
+#tableBtnHolder > button {
+    margin-right: 5px;
+}
+
+.data-pill {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #2a2323;
+}
+
+.indexes {
+    font-size: smaller;
+}
+
+.w-80 {
+    /* width: 80%; */
+}
